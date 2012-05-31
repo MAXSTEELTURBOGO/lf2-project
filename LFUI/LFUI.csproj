@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13ABE701-2885-4BA9-9497-5680482B9D27}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFAutomationUI.LFUI</RootNamespace>
+    <AssemblyName>LFAutomationUI.LFUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Resources\smallLogo.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdditionForm.Designer.cs">
+      <DependentUpon>AdditionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdditionRecordForm.Designer.cs">
+      <DependentUpon>AdditionRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllLFHeatPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllLFHeatPlanForm.Designer.cs">
+      <DependentUpon>AllLFHeatPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlloyRecipeSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlloyRecipeSelectForm.Designer.cs">
+      <DependentUpon>AlloyRecipeSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsersInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllUsersInfoForm.Designer.cs">
+      <DependentUpon>AllUsersInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicInfoForm.Designer.cs">
+      <DependentUpon>BasicInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseHeatOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseHeatOptionForm.Designer.cs">
+      <DependentUpon>ChooseHeatOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassInfoForm.Designer.cs">
+      <DependentUpon>ClassInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElementInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElementInfoForm.Designer.cs">
+      <DependentUpon>ElementInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EuipmentInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EuipmentInfoForm.Designer.cs">
+      <DependentUpon>EuipmentInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventRecordForm.Designer.cs">
+      <DependentUpon>EventRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportProcessReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportProcessReport.Designer.cs">
+      <DependentUpon>ExportProcessReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulaChooseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulaChooseForm.Designer.cs">
+      <DependentUpon>FormulaChooseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulaInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulaInfoForm.Designer.cs">
+      <DependentUpon>FormulaInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeatProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeatProcessForm.Designer.cs">
+      <DependentUpon>HeatProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginInfoForm.Designer.cs">
+      <DependentUpon>LoginInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManualControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManualControlForm.Designer.cs">
+      <DependentUpon>ManualControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialRecipeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialRecipeForm.Designer.cs">
+      <DependentUpon>MaterialRecipeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyLFHeatPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyLFHeatPlanForm.Designer.cs">
+      <DependentUpon>ModifyLFHeatPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiHeatReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiHeatReportForm.Designer.cs">
+      <DependentUpon>MultiHeatReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewLFHeatPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLFHeatPlanForm.Designer.cs">
+      <DependentUpon>NewLFHeatPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerRecordForm.Designer.cs">
+      <DependentUpon>PowerRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RouteModifyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RouteModifyForm.Designer.cs">
+      <DependentUpon>RouteModifyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectCarForm.Designer.cs">
+      <DependentUpon>SelectCarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleHeatReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleHeatReportForm.Designer.cs">
+      <DependentUpon>SingleHeatReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SteelInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SteelInfoForm.Designer.cs">
+      <DependentUpon>SteelInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LFMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LFMainForm.designer.cs">
+      <DependentUpon>LFMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialInfoForm.Designer.cs">
+      <DependentUpon>MaterialInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyPasswordForm.Designer.cs">
+      <DependentUpon>ModifyPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrivilegeInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrivilegeInfoForm.Designer.cs">
+      <DependentUpon>PrivilegeInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdditionForm.resx">
+      <DependentUpon>AdditionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdditionRecordForm.resx">
+      <DependentUpon>AdditionRecordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllLFHeatPlanForm.resx">
+      <DependentUpon>AllLFHeatPlanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlloyRecipeSelectForm.resx">
+      <DependentUpon>AlloyRecipeSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsersInfoForm.resx">
+      <DependentUpon>AllUsersInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicInfoForm.resx">
+      <DependentUpon>BasicInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseHeatOptionForm.resx">
+      <DependentUpon>ChooseHeatOptionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassInfoForm.resx">
+      <DependentUpon>ClassInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElementInfoForm.resx">
+      <DependentUpon>ElementInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EuipmentInfoForm.resx">
+      <DependentUpon>EuipmentInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventRecordForm.resx">
+      <DependentUpon>EventRecordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportProcessReport.resx">
+      <DependentUpon>ExportProcessReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaChooseForm.resx">
+      <DependentUpon>FormulaChooseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaInfoForm.resx">
+      <DependentUpon>FormulaInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeatProcessForm.resx">
+      <DependentUpon>HeatProcessForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginInfoForm.resx">
+      <DependentUpon>LoginInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualControlForm.resx">
+      <DependentUpon>ManualControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialRecipeForm.resx">
+      <DependentUpon>MaterialRecipeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyLFHeatPlanForm.resx">
+      <DependentUpon>ModifyLFHeatPlanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiHeatReportForm.resx">
+      <DependentUpon>MultiHeatReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLFHeatPlanForm.resx">
+      <DependentUpon>NewLFHeatPlanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerRecordForm.resx">
+      <DependentUpon>PowerRecordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RouteModifyForm.resx">
+      <DependentUpon>RouteModifyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectCarForm.resx">
+      <DependentUpon>SelectCarForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleHeatReportForm.resx">
+      <DependentUpon>SingleHeatReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SteelInfoForm.resx">
+      <DependentUpon>SteelInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LFMainForm.resx">
+      <DependentUpon>LFMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialInfoForm.resx">
+      <DependentUpon>MaterialInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyPasswordForm.resx">
+      <DependentUpon>ModifyPasswordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrivilegeInfoForm.resx">
+      <DependentUpon>PrivilegeInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoleInfoForm.resx">
+      <DependentUpon>RoleInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceForm.resx">
+      <DependentUpon>SourceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleUserForm.resx">
+      <DependentUpon>SingleUserForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SteelInfoSearchForm.resx">
+      <DependentUpon>SteelInfoSearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StepInfoForm.resx">
+      <DependentUpon>StepInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicInfoForm.resx">
+      <DependentUpon>TechnicInfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TempOxygenRecordForm.resx">
+      <DependentUpon>TempOxygenRecordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransformerParamForm.resx">
+      <DependentUpon>TransformerParamForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\AdditionReport.xls" />
+    <None Include="Resources\HeatReport.xls" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RoleInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoleInfoForm.Designer.cs">
+      <DependentUpon>RoleInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceForm.Designer.cs">
+      <DependentUpon>SourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleUserForm.Designer.cs">
+      <DependentUpon>SingleUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SteelInfoSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SteelInfoSearchForm.Designer.cs">
+      <DependentUpon>SteelInfoSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StepInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StepInfoForm.Designer.cs">
+      <DependentUpon>StepInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicInfoForm.Designer.cs">
+      <DependentUpon>TechnicInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempOxygenRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TempOxygenRecordForm.Designer.cs">
+      <DependentUpon>TempOxygenRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransformerParamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransformerParamForm.Designer.cs">
+      <DependentUpon>TransformerParamForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{ED876033-072A-4F6E-8167-09501BC6F9B7}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{697D6429-8A6C-4E03-88CB-6E7C36EDA362}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{BD997096-3E24-41F4-AEEA-8F88CC31E337}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\MainPic.jpg" />
+    <Content Include="Resources\smallLogo.ico" />
+    <None Include="Resources\登陆图片.jpg" />
+    <Content Include="VersionDescr.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,278 @@
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe.config
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.MSScriptControl.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.MSScriptControl.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AboutBox.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AlloyRecipeSelectForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllUsersInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.BasicInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ChooseHeatOptionForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ClassInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ElementInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EuipmentInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EventRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ExportProcessReport.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaChooseForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.HeatProcessForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ManualControlForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialRecipeForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MultiHeatReportForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.NewLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PowerRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RouteModifyForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SelectCarForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleHeatReportForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LFMainForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyPasswordForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PrivilegeInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RoleInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SourceForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleUserForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoSearchForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.StepInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TechnicInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TempOxygenRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TransformerParamForm.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.exe
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe.config
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.MSScriptControl.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.ResolveComReference.cache
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.exe
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\office.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.MSScriptControl.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AboutBox.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionRecordForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllLFHeatPlanForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AlloyRecipeSelectForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllUsersInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.BasicInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ChooseHeatOptionForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ClassInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ElementInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EuipmentInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EventRecordForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ExportProcessReport.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaChooseForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.HeatProcessForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ManualControlForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialRecipeForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyLFHeatPlanForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MultiHeatReportForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.NewLFHeatPlanForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PowerRecordForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RouteModifyForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SelectCarForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleHeatReportForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LFMainForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyPasswordForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PrivilegeInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.Properties.Resources.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RoleInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SourceForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleUserForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoSearchForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.StepInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TechnicInfoForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TempOxygenRecordForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TransformerParamForm.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.read.4.tlog
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe.config
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.MSScriptControl.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.exe
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.MSScriptControl.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AboutBox.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AlloyRecipeSelectForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllUsersInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.BasicInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ChooseHeatOptionForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ClassInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ElementInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EuipmentInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EventRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ExportProcessReport.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaChooseForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.HeatProcessForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ManualControlForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialRecipeForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MultiHeatReportForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.NewLFHeatPlanForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PowerRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RouteModifyForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SelectCarForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleHeatReportForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LFMainForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyPasswordForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PrivilegeInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RoleInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SourceForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleUserForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoSearchForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.StepInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TechnicInfoForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TempOxygenRecordForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TransformerParamForm.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe.config
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.MSScriptControl.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.ResolveComReference.cache
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.exe
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.BLL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DAL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.Model.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.IDAL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DALFactory.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\Interop.MSScriptControl.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\ResolveAssemblyReference.cache
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AboutBox.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AdditionRecordForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllLFHeatPlanForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AlloyRecipeSelectForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.AllUsersInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.BasicInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ChooseHeatOptionForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ClassInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ElementInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EuipmentInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.EventRecordForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ExportProcessReport.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaChooseForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.FormulaInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.HeatProcessForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LoginInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ManualControlForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialRecipeForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyLFHeatPlanForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MultiHeatReportForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.NewLFHeatPlanForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PowerRecordForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RouteModifyForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SelectCarForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleHeatReportForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.LFMainForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.MaterialInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.ModifyPasswordForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.PrivilegeInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.Properties.Resources.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.RoleInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SourceForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SingleUserForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.SteelInfoSearchForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.StepInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TechnicInfoForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TempOxygenRecordForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.TransformerParamForm.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource.read.1.tlog
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\GenerateResource.write.1.tlog
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\bin\Debug\LFAutomationUI.LFUI.exe.config
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\Interop.MSScriptControl.dll
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFUI.csproj.ResolveComReference.cache
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.exe
+E:\学习\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\LFUI\obj\Debug\LFAutomationUI.LFUI.pdb

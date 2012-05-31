@@ -1,0 +1,20 @@
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DBUtility\obj\Debug\LFAutomationUI.DBUtility.pdb
