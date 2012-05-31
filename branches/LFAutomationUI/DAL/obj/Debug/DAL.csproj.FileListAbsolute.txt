@@ -1,0 +1,55 @@
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\钢厂备份\济钢\源代码\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.pdb
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.Properties.Resources.resources
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.dll
+E:\Projects Backup\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.pdb
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.dll
+C:\Documents and Settings\Administrator\桌面\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DAL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.DBUtility.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.IDAL.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\bin\Debug\LFAutomationUI.Model.pdb
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.Properties.Resources.resources
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.dll
+E:\资料\项目\钢厂\含温度预估模型与合金计算模型\LFAutomationUI\DAL\obj\Debug\LFAutomationUI.DAL.pdb

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FCECF06-C92E-47C5-A57D-25653BCB214D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFAutomationUI.IDAL</RootNamespace>
+    <AssemblyName>LFAutomationUI.IDAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IBasic.cs" />
+    <Compile Include="IBOFAddition.cs" />
+    <Compile Include="IBOFHeat.cs" />
+    <Compile Include="IBOFHeatStatus.cs" />
+    <Compile Include="ICCMHeat.cs" />
+    <Compile Include="ICCMHeatReport.cs" />
+    <Compile Include="ICCMHeatStatus.cs" />
+    <Compile Include="ICCMSlabReport.cs" />
+    <Compile Include="IClasses.cs" />
+    <Compile Include="IDBLog.cs" />
+    <Compile Include="IRecipe.cs" />
+    <Compile Include="IQualityHorizontal.cs" />
+    <Compile Include="IElement.cs" />
+    <Compile Include="IEquipment.cs" />
+    <Compile Include="IEventRecord.cs" />
+    <Compile Include="IAdditionRecord.cs" />
+    <Compile Include="IFormula.cs" />
+    <Compile Include="IHeatQuality.cs" />
+    <Compile Include="IHeatSlagQuality.cs" />
+    <Compile Include="ILadle.cs" />
+    <Compile Include="ILFHeatStatus.cs" />
+    <Compile Include="ILFHeat.cs" />
+    <Compile Include="ILogin.cs" />
+    <Compile Include="IMaterial.cs" />
+    <Compile Include="IMaterialAnalysis.cs" />
+    <Compile Include="IMaterialType.cs" />
+    <Compile Include="IPowerOnRecord.cs" />
+    <Compile Include="IPrivilege.cs" />
+    <Compile Include="IRealTime.cs" />
+    <Compile Include="IRHHeatStatus.cs" />
+    <Compile Include="IRole.cs" />
+    <Compile Include="IRoute.cs" />
+    <Compile Include="ISource.cs" />
+    <Compile Include="ISlagQualityHorizontal.cs" />
+    <Compile Include="IStatus.cs" />
+    <Compile Include="ISteelAnalysis.cs" />
+    <Compile Include="ISteelGradeDetails.cs" />
+    <Compile Include="IStep.cs" />
+    <Compile Include="ITechnics.cs" />
+    <Compile Include="ITechnicStep.cs" />
+    <Compile Include="ITempEstimate.cs" />
+    <Compile Include="ITempEstimateBasic.cs" />
+    <Compile Include="ITempEstimateCoeffic.cs" />
+    <Compile Include="ITransformerParam.cs" />
+    <Compile Include="IUser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ITreatmentStation.cs" />
+    <Compile Include="ITempOxygenRecord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{BD997096-3E24-41F4-AEEA-8F88CC31E337}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
