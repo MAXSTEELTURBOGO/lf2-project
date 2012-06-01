@@ -10,17 +10,19 @@ namespace LFAutomationUI.Model
         #region Internal members
 
         private DateTime msgTimeStamp;
-        private decimal? planId;
+        //private decimal? planId;
         private string heatId;
         private int treatmentCount;
         private Car car;
         private string factoryCode;
-        private int? planStationId;
-        private int currentStationId;
+        //private int? planStationId;
+        //private int currentStationId;
         private double? arrivalSteelWeight;
         private double? arrivalSlagWeight;
         private SteelGradeDetailInfo steelGrade;
-        private LadleInfo ladle;
+        //private LadleInfo ladle;
+        private string S_LD_ID;//钢包号
+        private int? FURNACE_TIM;//保龄
         private DateTime? preStartTime;
         private double? targetTemperature;
 
@@ -76,11 +78,11 @@ namespace LFAutomationUI.Model
         /// <summary>
         /// 计划号
         /// </summary>
-        public decimal? PlanId
-        {
-            get { return planId; }
-            set { planId = value; }
-        }
+        //public decimal? PlanId
+        //{
+        //    get { return planId; }
+        //    set { planId = value; }
+        //}
 
         /// <summary>
         /// 炉次号
@@ -121,11 +123,11 @@ namespace LFAutomationUI.Model
         /// <summary>
         /// 计划冶炼站号
         /// </summary>
-        public int? PlanStationId
-        {
-            get { return planStationId; }
-            set { planStationId = value; }
-        }
+        //public int? PlanStationId
+        //{
+        //    get { return planStationId; }
+        //    set { planStationId = value; }
+        //}
 
 
         /// <summary>
@@ -140,11 +142,11 @@ namespace LFAutomationUI.Model
         /// <summary>
         /// 当前站号
         /// </summary>
-        public int CurrentStationId
-        {
-            get { return currentStationId; }
-            set { currentStationId = value; }
-        }
+        //public int CurrentStationId
+        //{
+        //    get { return currentStationId; }
+        //    set { currentStationId = value; }
+        //}
 
         /// <summary>
         /// 钢水重量
@@ -222,15 +224,9 @@ namespace LFAutomationUI.Model
             get { return steelGrade; }
             set { steelGrade = value; }
         }
-
-        /// <summary>
-        /// 钢包信息
-        /// </summary>
-        public LadleInfo Ladle
-        {
-            get { return ladle; }
-            set { ladle = value; }
-        }
+        
+        
+      
 
         /// <summary>
         /// 到达时间
@@ -537,7 +533,24 @@ namespace LFAutomationUI.Model
             get { return feedSpeed; }
             set { feedSpeed = value; }
         }
+         
 
+        /// <summary>
+        /// 预开始时间
+        /// </summary>
+        public string SLD_ID
+        {
+            get { return S_LD_ID; }
+            set { S_LD_ID = value; }
+        }
+        /// <summary>
+        /// 预开始时间
+        /// </summary>
+        public int? FurnaceTim
+        {
+            get { return FURNACE_TIM; }
+            set { FURNACE_TIM = value; }
+        }
         /// <summary>
         /// 预开始时间
         /// </summary>
@@ -666,7 +679,7 @@ namespace LFAutomationUI.Model
             this.lastHeatTemperature = new TempOxygenRecordInfo();
             this.steelGrade = new SteelGradeDetailInfo();
             this.heatEquipment = new HeatEquipmentInfo();
-            this.ladle = new LadleInfo();
+            
             this.operatorUser = new UserInfo();
             this.reatTimeList = new List<RealTimeInfo>();
             this.additionList = new List<AdditionRecordInfo>();

@@ -134,8 +134,6 @@
             this.lbl_TreatmentCount = new System.Windows.Forms.Label();
             this.lblHeatId = new System.Windows.Forms.Label();
             this.lbl_HeatId = new System.Windows.Forms.Label();
-            this.lblPlanId = new System.Windows.Forms.Label();
-            this.lbl_PlanId = new System.Windows.Forms.Label();
             this.panelLFContainer = new System.Windows.Forms.Panel();
             this.panelOperationButton = new System.Windows.Forms.Panel();
             this.btnTemperaturePrediction = new System.Windows.Forms.Button();
@@ -154,7 +152,6 @@
             this.panelHearListAndEditButton = new System.Windows.Forms.Panel();
             this.panelHeatListInfo = new System.Windows.Forms.Panel();
             this.lvHeatInfo = new System.Windows.Forms.ListView();
-            this.columnHeaderPlanId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderHeatId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderTreatmentCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -885,6 +882,9 @@
             this.bgWorkerRefreshLFHeatList = new System.ComponentModel.BackgroundWorker();
             this.bgWorkerRefreshQualityList = new System.ComponentModel.BackgroundWorker();
             this.timerRefreshQualityList = new System.Windows.Forms.Timer(this.components);
+            this.columnHeaderStuffCod = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.lblStuffCod = new System.Windows.Forms.Label();
+            this.lbl_StuffCod = new System.Windows.Forms.Label();
             this.menuStripLFUI.SuspendLayout();
             this.statusStripLFUI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxWelcomeLogo)).BeginInit();
@@ -906,10 +906,12 @@
             this.tabPageQuality.SuspendLayout();
             this.tabPageSlagQualityInfo.SuspendLayout();
             this.panelTempEstimate.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempEstimate)).BeginInit();
             this.splitContainerTempEstimate.Panel1.SuspendLayout();
             this.splitContainerTempEstimate.Panel2.SuspendLayout();
             this.splitContainerTempEstimate.SuspendLayout();
             this.gBoxTempInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerEfficientInfos)).BeginInit();
             this.splitContainerEfficientInfos.Panel1.SuspendLayout();
             this.splitContainerEfficientInfos.Panel2.SuspendLayout();
             this.splitContainerEfficientInfos.SuspendLayout();
@@ -926,6 +928,7 @@
             this.gBoxTerminalTempCal.SuspendLayout();
             this.gBoxCalCurrentTemp.SuspendLayout();
             this.panelAlloyCalculator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerAlloyCalBtnContainer)).BeginInit();
             this.splitContainerAlloyCalBtnContainer.Panel1.SuspendLayout();
             this.splitContainerAlloyCalBtnContainer.Panel2.SuspendLayout();
             this.splitContainerAlloyCalBtnContainer.SuspendLayout();
@@ -942,6 +945,7 @@
             this.gBoxProcessStep.SuspendLayout();
             this.gBoxSteelGradeBasicInfo.SuspendLayout();
             this.panelLFHeatDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerSingleReport)).BeginInit();
             this.splitContainerSingleReport.Panel1.SuspendLayout();
             this.splitContainerSingleReport.Panel2.SuspendLayout();
             this.splitContainerSingleReport.SuspendLayout();
@@ -950,11 +954,13 @@
             this.panelDetailHeatInfo.SuspendLayout();
             this.panelSingleReportQuality.SuspendLayout();
             this.gBoxQuality.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempOxygenPower)).BeginInit();
             this.splitContainerTempOxygenPower.Panel1.SuspendLayout();
             this.splitContainerTempOxygenPower.Panel2.SuspendLayout();
             this.splitContainerTempOxygenPower.SuspendLayout();
             this.gBoxTempOxygenRecord.SuspendLayout();
             this.gBoxPowerRecord.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerAdditionInfo)).BeginInit();
             this.splitContainerAdditionInfo.Panel1.SuspendLayout();
             this.splitContainerAdditionInfo.Panel2.SuspendLayout();
             this.splitContainerAdditionInfo.SuspendLayout();
@@ -965,9 +971,11 @@
             this.panelBOFRHHeatDetail.SuspendLayout();
             this.tabControlBOFRHHeatInfo.SuspendLayout();
             this.tabPageBOFHeatInfoDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerBOFHeatDetailInfo)).BeginInit();
             this.splitContainerBOFHeatDetailInfo.Panel1.SuspendLayout();
             this.splitContainerBOFHeatDetailInfo.Panel2.SuspendLayout();
             this.splitContainerBOFHeatDetailInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerBOFHeatStatusAndAddition)).BeginInit();
             this.splitContainerBOFHeatStatusAndAddition.Panel1.SuspendLayout();
             this.splitContainerBOFHeatStatusAndAddition.Panel2.SuspendLayout();
             this.splitContainerBOFHeatStatusAndAddition.SuspendLayout();
@@ -975,9 +983,11 @@
             this.tabPageBOFAdditionStatistic.SuspendLayout();
             this.tabPageBOFAdditionRecord.SuspendLayout();
             this.tabPageRHHeatInfoDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerRHHeatInfo)).BeginInit();
             this.splitContainerRHHeatInfo.Panel1.SuspendLayout();
             this.splitContainerRHHeatInfo.Panel2.SuspendLayout();
             this.splitContainerRHHeatInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerRHAddAndHeatStatus)).BeginInit();
             this.splitContainerRHAddAndHeatStatus.Panel1.SuspendLayout();
             this.splitContainerRHAddAndHeatStatus.Panel2.SuspendLayout();
             this.splitContainerRHAddAndHeatStatus.SuspendLayout();
@@ -985,11 +995,13 @@
             this.tabPageRHAdditionSum.SuspendLayout();
             this.tabPageRHAdditionEach.SuspendLayout();
             this.tabPageCCMHeatDetailInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerCCMHeatDetail)).BeginInit();
             this.splitContainerCCMHeatDetail.Panel1.SuspendLayout();
             this.splitContainerCCMHeatDetail.Panel2.SuspendLayout();
             this.splitContainerCCMHeatDetail.SuspendLayout();
             this.gBox_ArValue.SuspendLayout();
             this.gBox_Mold.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerCCMStatusAndSlab)).BeginInit();
             this.splitContainerCCMStatusAndSlab.Panel1.SuspendLayout();
             this.splitContainerCCMStatusAndSlab.Panel2.SuspendLayout();
             this.splitContainerCCMStatusAndSlab.SuspendLayout();
@@ -1506,6 +1518,8 @@
             // panelLFHeatBasicInfo
             // 
             this.panelLFHeatBasicInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelLFHeatBasicInfo.Controls.Add(this.lblStuffCod);
+            this.panelLFHeatBasicInfo.Controls.Add(this.lbl_StuffCod);
             this.panelLFHeatBasicInfo.Controls.Add(this.lblLadleId);
             this.panelLFHeatBasicInfo.Controls.Add(this.lbl_LadleId);
             this.panelLFHeatBasicInfo.Controls.Add(this.lblCar);
@@ -1518,8 +1532,6 @@
             this.panelLFHeatBasicInfo.Controls.Add(this.lbl_TreatmentCount);
             this.panelLFHeatBasicInfo.Controls.Add(this.lblHeatId);
             this.panelLFHeatBasicInfo.Controls.Add(this.lbl_HeatId);
-            this.panelLFHeatBasicInfo.Controls.Add(this.lblPlanId);
-            this.panelLFHeatBasicInfo.Controls.Add(this.lbl_PlanId);
             this.panelLFHeatBasicInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLFHeatBasicInfo.Font = new System.Drawing.Font("SimSun", 11F);
             this.panelLFHeatBasicInfo.Location = new System.Drawing.Point(0, 0);
@@ -1531,7 +1543,7 @@
             // 
             this.lblLadleId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblLadleId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblLadleId.Location = new System.Drawing.Point(583, 6);
+            this.lblLadleId.Location = new System.Drawing.Point(427, 6);
             this.lblLadleId.Name = "lblLadleId";
             this.lblLadleId.Size = new System.Drawing.Size(58, 23);
             this.lblLadleId.TabIndex = 13;
@@ -1541,7 +1553,7 @@
             // 
             this.lbl_LadleId.AutoSize = true;
             this.lbl_LadleId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_LadleId.Location = new System.Drawing.Point(522, 10);
+            this.lbl_LadleId.Location = new System.Drawing.Point(366, 10);
             this.lbl_LadleId.Name = "lbl_LadleId";
             this.lbl_LadleId.Size = new System.Drawing.Size(55, 15);
             this.lbl_LadleId.TabIndex = 12;
@@ -1551,7 +1563,7 @@
             // 
             this.lblCar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblCar.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblCar.Location = new System.Drawing.Point(482, 6);
+            this.lblCar.Location = new System.Drawing.Point(326, 6);
             this.lblCar.Name = "lblCar";
             this.lblCar.Size = new System.Drawing.Size(34, 23);
             this.lblCar.TabIndex = 11;
@@ -1561,7 +1573,7 @@
             // 
             this.lbl_Car.AutoSize = true;
             this.lbl_Car.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_Car.Location = new System.Drawing.Point(437, 10);
+            this.lbl_Car.Location = new System.Drawing.Point(281, 10);
             this.lbl_Car.Name = "lbl_Car";
             this.lbl_Car.Size = new System.Drawing.Size(39, 15);
             this.lbl_Car.TabIndex = 10;
@@ -1571,7 +1583,7 @@
             // 
             this.lblLadleAge.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblLadleAge.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblLadleAge.Location = new System.Drawing.Point(719, 6);
+            this.lblLadleAge.Location = new System.Drawing.Point(563, 6);
             this.lblLadleAge.Name = "lblLadleAge";
             this.lblLadleAge.Size = new System.Drawing.Size(91, 23);
             this.lblLadleAge.TabIndex = 9;
@@ -1581,7 +1593,7 @@
             // 
             this.lbl_HeatAge.AutoSize = true;
             this.lbl_HeatAge.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_HeatAge.Location = new System.Drawing.Point(647, 10);
+            this.lbl_HeatAge.Location = new System.Drawing.Point(491, 10);
             this.lbl_HeatAge.Name = "lbl_HeatAge";
             this.lbl_HeatAge.Size = new System.Drawing.Size(71, 15);
             this.lbl_HeatAge.TabIndex = 8;
@@ -1591,7 +1603,7 @@
             // 
             this.lblSteelGradeId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblSteelGradeId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblSteelGradeId.Location = new System.Drawing.Point(875, 6);
+            this.lblSteelGradeId.Location = new System.Drawing.Point(719, 6);
             this.lblSteelGradeId.Name = "lblSteelGradeId";
             this.lblSteelGradeId.Size = new System.Drawing.Size(122, 23);
             this.lblSteelGradeId.TabIndex = 7;
@@ -1601,7 +1613,7 @@
             // 
             this.lbl_SteelGradeId.AutoSize = true;
             this.lbl_SteelGradeId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SteelGradeId.Location = new System.Drawing.Point(814, 10);
+            this.lbl_SteelGradeId.Location = new System.Drawing.Point(658, 10);
             this.lbl_SteelGradeId.Name = "lbl_SteelGradeId";
             this.lbl_SteelGradeId.Size = new System.Drawing.Size(55, 15);
             this.lbl_SteelGradeId.TabIndex = 6;
@@ -1611,7 +1623,7 @@
             // 
             this.lblTreatmentCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblTreatmentCount.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblTreatmentCount.Location = new System.Drawing.Point(397, 6);
+            this.lblTreatmentCount.Location = new System.Drawing.Point(241, 6);
             this.lblTreatmentCount.Name = "lblTreatmentCount";
             this.lblTreatmentCount.Size = new System.Drawing.Size(34, 23);
             this.lblTreatmentCount.TabIndex = 5;
@@ -1621,7 +1633,7 @@
             // 
             this.lbl_TreatmentCount.AutoSize = true;
             this.lbl_TreatmentCount.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_TreatmentCount.Location = new System.Drawing.Point(320, 10);
+            this.lbl_TreatmentCount.Location = new System.Drawing.Point(164, 10);
             this.lbl_TreatmentCount.Name = "lbl_TreatmentCount";
             this.lbl_TreatmentCount.Size = new System.Drawing.Size(71, 15);
             this.lbl_TreatmentCount.TabIndex = 4;
@@ -1631,7 +1643,7 @@
             // 
             this.lblHeatId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblHeatId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblHeatId.Location = new System.Drawing.Point(223, 6);
+            this.lblHeatId.Location = new System.Drawing.Point(67, 6);
             this.lblHeatId.Name = "lblHeatId";
             this.lblHeatId.Size = new System.Drawing.Size(91, 23);
             this.lblHeatId.TabIndex = 3;
@@ -1641,31 +1653,11 @@
             // 
             this.lbl_HeatId.AutoSize = true;
             this.lbl_HeatId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_HeatId.Location = new System.Drawing.Point(162, 10);
+            this.lbl_HeatId.Location = new System.Drawing.Point(6, 10);
             this.lbl_HeatId.Name = "lbl_HeatId";
             this.lbl_HeatId.Size = new System.Drawing.Size(55, 15);
             this.lbl_HeatId.TabIndex = 2;
             this.lbl_HeatId.Text = "炉次号";
-            // 
-            // lblPlanId
-            // 
-            this.lblPlanId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblPlanId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblPlanId.Location = new System.Drawing.Point(65, 6);
-            this.lblPlanId.Name = "lblPlanId";
-            this.lblPlanId.Size = new System.Drawing.Size(91, 23);
-            this.lblPlanId.TabIndex = 1;
-            this.lblPlanId.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl_PlanId
-            // 
-            this.lbl_PlanId.AutoSize = true;
-            this.lbl_PlanId.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_PlanId.Location = new System.Drawing.Point(4, 10);
-            this.lbl_PlanId.Name = "lbl_PlanId";
-            this.lbl_PlanId.Size = new System.Drawing.Size(55, 15);
-            this.lbl_PlanId.TabIndex = 0;
-            this.lbl_PlanId.Text = "计划号";
             // 
             // panelLFContainer
             // 
@@ -1872,11 +1864,11 @@
             // 
             this.lvHeatInfo.Activation = System.Windows.Forms.ItemActivation.TwoClick;
             this.lvHeatInfo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeaderPlanId,
             this.columnHeaderHeatId,
             this.columnHeaderTreatmentCount,
             this.columnHeaderCar,
             this.columnHeaderSteelGrade,
+            this.columnHeaderStuffCod,
             this.columnHeaderLadleId,
             this.columnHeaderArrivalTime,
             this.columnHeaderDepartTime,
@@ -1895,11 +1887,6 @@
             this.lvHeatInfo.View = System.Windows.Forms.View.Details;
             this.lvHeatInfo.ItemActivate += new System.EventHandler(this.lvHeatInfo_ItemActivate);
             this.lvHeatInfo.SelectedIndexChanged += new System.EventHandler(this.lvHeatInfo_SelectedIndexChanged);
-            // 
-            // columnHeaderPlanId
-            // 
-            this.columnHeaderPlanId.Text = "计划号";
-            this.columnHeaderPlanId.Width = 85;
             // 
             // columnHeaderHeatId
             // 
@@ -7859,7 +7846,7 @@
             this.lvBOFAdditionRecord.Location = new System.Drawing.Point(3, 3);
             this.lvBOFAdditionRecord.MultiSelect = false;
             this.lvBOFAdditionRecord.Name = "lvBOFAdditionRecord";
-            this.lvBOFAdditionRecord.Size = new System.Drawing.Size(598, 240);
+            this.lvBOFAdditionRecord.Size = new System.Drawing.Size(598, 236);
             this.lvBOFAdditionRecord.TabIndex = 1;
             this.lvBOFAdditionRecord.UseCompatibleStateImageBehavior = false;
             this.lvBOFAdditionRecord.View = System.Windows.Forms.View.Details;
@@ -8055,7 +8042,7 @@
             this.lvRHAdditionEach.Location = new System.Drawing.Point(3, 3);
             this.lvRHAdditionEach.MultiSelect = false;
             this.lvRHAdditionEach.Name = "lvRHAdditionEach";
-            this.lvRHAdditionEach.Size = new System.Drawing.Size(596, 237);
+            this.lvRHAdditionEach.Size = new System.Drawing.Size(596, 233);
             this.lvRHAdditionEach.TabIndex = 1;
             this.lvRHAdditionEach.UseCompatibleStateImageBehavior = false;
             this.lvRHAdditionEach.View = System.Windows.Forms.View.Details;
@@ -8922,7 +8909,7 @@
             this.chartEAC.Series.Add(series3);
             this.chartEAC.Series.Add(series4);
             this.chartEAC.Series.Add(series5);
-            this.chartEAC.Size = new System.Drawing.Size(984, 503);
+            this.chartEAC.Size = new System.Drawing.Size(984, 502);
             this.chartEAC.TabIndex = 1;
             this.chartEAC.Text = "弧流曲线";
             this.chartEAC.TextAntiAliasingQuality = System.Windows.Forms.DataVisualization.Charting.TextAntiAliasingQuality.SystemDefault;
@@ -8995,7 +8982,7 @@
             this.chartEAV.Series.Add(series6);
             this.chartEAV.Series.Add(series7);
             this.chartEAV.Series.Add(series8);
-            this.chartEAV.Size = new System.Drawing.Size(984, 503);
+            this.chartEAV.Size = new System.Drawing.Size(984, 502);
             this.chartEAV.TabIndex = 2;
             this.chartEAV.Text = "弧压曲线";
             this.chartEAV.TextAntiAliasingQuality = System.Windows.Forms.DataVisualization.Charting.TextAntiAliasingQuality.SystemDefault;
@@ -9058,7 +9045,7 @@
             series10.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
             this.chartArPressure.Series.Add(series9);
             this.chartArPressure.Series.Add(series10);
-            this.chartArPressure.Size = new System.Drawing.Size(984, 503);
+            this.chartArPressure.Size = new System.Drawing.Size(984, 502);
             this.chartArPressure.TabIndex = 2;
             this.chartArPressure.Text = "压力曲线";
             this.chartArPressure.TextAntiAliasingQuality = System.Windows.Forms.DataVisualization.Charting.TextAntiAliasingQuality.SystemDefault;
@@ -9093,6 +9080,30 @@
             this.timerRefreshQualityList.Enabled = true;
             this.timerRefreshQualityList.Interval = 10000;
             this.timerRefreshQualityList.Tick += new System.EventHandler(this.timerRefreshQualityList_Tick);
+            // 
+            // columnHeaderStuffCod
+            // 
+            this.columnHeaderStuffCod.Text = "材质号";
+            // 
+            // lblStuffCod
+            // 
+            this.lblStuffCod.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblStuffCod.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblStuffCod.Location = new System.Drawing.Point(907, 8);
+            this.lblStuffCod.Name = "lblStuffCod";
+            this.lblStuffCod.Size = new System.Drawing.Size(91, 23);
+            this.lblStuffCod.TabIndex = 15;
+            this.lblStuffCod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_StuffCod
+            // 
+            this.lbl_StuffCod.AutoSize = true;
+            this.lbl_StuffCod.Font = new System.Drawing.Font("SimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_StuffCod.Location = new System.Drawing.Point(846, 12);
+            this.lbl_StuffCod.Name = "lbl_StuffCod";
+            this.lbl_StuffCod.Size = new System.Drawing.Size(55, 15);
+            this.lbl_StuffCod.TabIndex = 14;
+            this.lbl_StuffCod.Text = "材质号";
             // 
             // LFMainForm
             // 
@@ -9144,11 +9155,13 @@
             this.splitContainerTempEstimate.Panel1.ResumeLayout(false);
             this.splitContainerTempEstimate.Panel1.PerformLayout();
             this.splitContainerTempEstimate.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempEstimate)).EndInit();
             this.splitContainerTempEstimate.ResumeLayout(false);
             this.gBoxTempInfo.ResumeLayout(false);
             this.gBoxTempInfo.PerformLayout();
             this.splitContainerEfficientInfos.Panel1.ResumeLayout(false);
             this.splitContainerEfficientInfos.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerEfficientInfos)).EndInit();
             this.splitContainerEfficientInfos.ResumeLayout(false);
             this.gBoxTempEstimateCoefficient.ResumeLayout(false);
             this.tabControlTempEstParaMaintain.ResumeLayout(false);
@@ -9168,6 +9181,7 @@
             this.splitContainerAlloyCalBtnContainer.Panel1.ResumeLayout(false);
             this.splitContainerAlloyCalBtnContainer.Panel2.ResumeLayout(false);
             this.splitContainerAlloyCalBtnContainer.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerAlloyCalBtnContainer)).EndInit();
             this.splitContainerAlloyCalBtnContainer.ResumeLayout(false);
             this.panelAlloyCalOprateBtn.ResumeLayout(false);
             this.panelAlloyCalBasicInfo.ResumeLayout(false);
@@ -9189,6 +9203,7 @@
             this.panelLFHeatDetail.ResumeLayout(false);
             this.splitContainerSingleReport.Panel1.ResumeLayout(false);
             this.splitContainerSingleReport.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerSingleReport)).EndInit();
             this.splitContainerSingleReport.ResumeLayout(false);
             this.gBoxLFHeatBasicInfo.ResumeLayout(false);
             this.gBoxLFHeatBasicInfo.PerformLayout();
@@ -9198,11 +9213,13 @@
             this.gBoxQuality.ResumeLayout(false);
             this.splitContainerTempOxygenPower.Panel1.ResumeLayout(false);
             this.splitContainerTempOxygenPower.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempOxygenPower)).EndInit();
             this.splitContainerTempOxygenPower.ResumeLayout(false);
             this.gBoxTempOxygenRecord.ResumeLayout(false);
             this.gBoxPowerRecord.ResumeLayout(false);
             this.splitContainerAdditionInfo.Panel1.ResumeLayout(false);
             this.splitContainerAdditionInfo.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerAdditionInfo)).EndInit();
             this.splitContainerAdditionInfo.ResumeLayout(false);
             this.tabControlLFAddtion.ResumeLayout(false);
             this.tabPageAdditionEach.ResumeLayout(false);
@@ -9214,9 +9231,11 @@
             this.splitContainerBOFHeatDetailInfo.Panel1.ResumeLayout(false);
             this.splitContainerBOFHeatDetailInfo.Panel1.PerformLayout();
             this.splitContainerBOFHeatDetailInfo.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerBOFHeatDetailInfo)).EndInit();
             this.splitContainerBOFHeatDetailInfo.ResumeLayout(false);
             this.splitContainerBOFHeatStatusAndAddition.Panel1.ResumeLayout(false);
             this.splitContainerBOFHeatStatusAndAddition.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerBOFHeatStatusAndAddition)).EndInit();
             this.splitContainerBOFHeatStatusAndAddition.ResumeLayout(false);
             this.tabControlBOFAddition.ResumeLayout(false);
             this.tabPageBOFAdditionStatistic.ResumeLayout(false);
@@ -9225,9 +9244,11 @@
             this.splitContainerRHHeatInfo.Panel1.ResumeLayout(false);
             this.splitContainerRHHeatInfo.Panel1.PerformLayout();
             this.splitContainerRHHeatInfo.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerRHHeatInfo)).EndInit();
             this.splitContainerRHHeatInfo.ResumeLayout(false);
             this.splitContainerRHAddAndHeatStatus.Panel1.ResumeLayout(false);
             this.splitContainerRHAddAndHeatStatus.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerRHAddAndHeatStatus)).EndInit();
             this.splitContainerRHAddAndHeatStatus.ResumeLayout(false);
             this.tabControlRHAdditionInfo.ResumeLayout(false);
             this.tabPageRHAdditionSum.ResumeLayout(false);
@@ -9236,6 +9257,7 @@
             this.splitContainerCCMHeatDetail.Panel1.ResumeLayout(false);
             this.splitContainerCCMHeatDetail.Panel1.PerformLayout();
             this.splitContainerCCMHeatDetail.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerCCMHeatDetail)).EndInit();
             this.splitContainerCCMHeatDetail.ResumeLayout(false);
             this.gBox_ArValue.ResumeLayout(false);
             this.gBox_ArValue.PerformLayout();
@@ -9243,6 +9265,7 @@
             this.gBox_Mold.PerformLayout();
             this.splitContainerCCMStatusAndSlab.Panel1.ResumeLayout(false);
             this.splitContainerCCMStatusAndSlab.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerCCMStatusAndSlab)).EndInit();
             this.splitContainerCCMStatusAndSlab.ResumeLayout(false);
             this.panelLFProcessInfo.ResumeLayout(false);
             this.tabControlLFProcessInfo.ResumeLayout(false);
@@ -9336,8 +9359,6 @@
         private System.Windows.Forms.Label lbl_TreatmentCount;
         private System.Windows.Forms.Label lblHeatId;
         private System.Windows.Forms.Label lbl_HeatId;
-        private System.Windows.Forms.Label lblPlanId;
-        private System.Windows.Forms.Label lbl_PlanId;
         private System.Windows.Forms.Panel panelLFContainer;
         private System.Windows.Forms.Panel panelOperationButton;
         private System.Windows.Forms.Button btnBOFRHHeatInfo;
@@ -9348,18 +9369,6 @@
         private System.Windows.Forms.Panel panelLFContent;
         private System.Windows.Forms.Panel panelMainControl;
         private System.Windows.Forms.Panel panelHearListAndEditButton;
-        private System.Windows.Forms.Panel panelHeatListInfo;
-        private System.Windows.Forms.ListView lvHeatInfo;
-        private System.Windows.Forms.ColumnHeader columnHeaderPlanId;
-        private System.Windows.Forms.ColumnHeader columnHeaderHeatId;
-        private System.Windows.Forms.ColumnHeader columnHeaderTreatmentCount;
-        private System.Windows.Forms.ColumnHeader columnHeaderCar;
-        private System.Windows.Forms.ColumnHeader columnHeaderSteelGrade;
-        private System.Windows.Forms.ColumnHeader columnHeaderLadleId;
-        private System.Windows.Forms.ColumnHeader columnHeaderArrivalTime;
-        private System.Windows.Forms.ColumnHeader columnHeaderDepartTime;
-        private System.Windows.Forms.ColumnHeader columnHeaderHeatStatus;
-        private System.Windows.Forms.ColumnHeader columnHeaderRouteName;
         private System.Windows.Forms.Panel panelEditButton;
         private System.Windows.Forms.Button btnSwapCar;
         private System.Windows.Forms.NumericUpDown numericUpDownToBeDoneHeatCount;
@@ -10090,6 +10099,20 @@
         private System.Windows.Forms.Label lblTempEstTapCurrent;
         private System.Windows.Forms.Label lblTempEstTapVol;
         private System.Windows.Forms.Label lblTempEstNote8;
+        private System.Windows.Forms.Panel panelHeatListInfo;
+        private System.Windows.Forms.ListView lvHeatInfo;
+        private System.Windows.Forms.ColumnHeader columnHeaderHeatId;
+        private System.Windows.Forms.ColumnHeader columnHeaderTreatmentCount;
+        private System.Windows.Forms.ColumnHeader columnHeaderCar;
+        private System.Windows.Forms.ColumnHeader columnHeaderSteelGrade;
+        private System.Windows.Forms.ColumnHeader columnHeaderLadleId;
+        private System.Windows.Forms.ColumnHeader columnHeaderArrivalTime;
+        private System.Windows.Forms.ColumnHeader columnHeaderDepartTime;
+        private System.Windows.Forms.ColumnHeader columnHeaderHeatStatus;
+        private System.Windows.Forms.ColumnHeader columnHeaderRouteName;
+        private System.Windows.Forms.Label lblStuffCod;
+        private System.Windows.Forms.Label lbl_StuffCod;
+        private System.Windows.Forms.ColumnHeader columnHeaderStuffCod;
 
     }
 }

@@ -9,23 +9,24 @@ namespace LFAutomationUI.Model
     {
         #region internalMembers
         private string steelGradeId;
-        private string steelGradeName;
-        private string steelGradeGroupCode;
-        private string steelGradeGroupName;
+        //private string steelGradeName;
+        //private string steelGradeGroupCode;
+        //private string steelGradeGroupName;
+        private string staffCod;
         private string steelGradeDescr;
-        private IList<FormulaInfo> formulaInfos;
-        private double? liquidTemp;
-        private string slagModel;
-        private string argonModel;
-        private int? maxDuraEachHeating;
-        private int? heatingCount;
-        private double? feTiAftHeating;
-        private double? wireWgtAftHeating;
-        private int? arDuraBefFeedWire;
-        private int? arDuraAftFeedWire;
-        private string routeId;
+        //private IList<FormulaInfo> formulaInfos;
+        //private double? liquidTemp;
+        //private string slagModel;
+        //private string argonModel;
+        //private int? maxDuraEachHeating;
+        //private int? heatingCount;
+        //private double? feTiAftHeating;
+        //private double? wireWgtAftHeating;
+        //private int? arDuraBefFeedWire;
+        //private int? arDuraAftFeedWire;
+        //private string routeId;
         private string routeDesc;
-        private TechnicsInfo technicsInfo;
+        //private TechnicsInfo technicsInfo;
         private IList<SteelAnalysisInfo> steelAnalysisList;
 
         #endregion
@@ -40,33 +41,41 @@ namespace LFAutomationUI.Model
             get { return this.steelGradeId; }
             set { this.steelGradeId = value; }
         }
-
+        /// <summary>
+        /// 钢种代码
+        /// </summary>
+        public string StaffCod
+        {
+            get { return this.staffCod; }
+            set { this.staffCod = value; }
+        }
+        
         /// <summary>
         /// 钢种名称
         /// </summary>
-        public string SteelGradeName
-        {
-            get { return this.steelGradeName; }
-            set { this.steelGradeName = value; }
-        }
+        //public string SteelGradeName
+        //{
+        //    get { return this.steelGradeName; }
+        //    set { this.steelGradeName = value; }
+        //}
         
         /// <summary>
         /// 钢种组代码
         /// </summary>
-        public string SteelGradeGroupCode
-        {
-            get { return this.steelGradeGroupCode; }
-            set { this.steelGradeGroupCode = value; }
-        }
+        //public string SteelGradeGroupCode
+        //{
+        //    get { return this.steelGradeGroupCode; }
+        //    set { this.steelGradeGroupCode = value; }
+        //}
 
         /// <summary>
         /// 钢种组名称
         /// </summary>
-        public string SteelGradeGroupName
-        {
-            get { return this.steelGradeGroupName; }
-            set { this.steelGradeGroupName = value; }
-        }
+        //public string SteelGradeGroupName
+        //{
+        //    get { return this.steelGradeGroupName; }
+        //    set { this.steelGradeGroupName = value; }
+        //}
 
         /// <summary>
         /// 钢种描述
@@ -80,99 +89,99 @@ namespace LFAutomationUI.Model
         /// <summary>
         /// 钢种碳当量公式
         /// </summary>
-        public IList<FormulaInfo> FormulaInfos
-        {
-            get { return this.formulaInfos; }
-            set { this.formulaInfos = value; }
-        }
+        //public IList<FormulaInfo> FormulaInfos
+        //{
+        //    get { return this.formulaInfos; }
+        //    set { this.formulaInfos = value; }
+        //}
 
         /// <summary>
         /// 液相线温度 
         /// </summary>
-        public double? LiquidTemp
-        {
-            get { return this.liquidTemp; }
-            set { this.liquidTemp = value; }
-        }
+        //public double? LiquidTemp
+        //{
+        //    get { return this.liquidTemp; }
+        //    set { this.liquidTemp = value; }
+        //}
         /// <summary>
         /// 钢种所用渣模式
         /// </summary>
-        public string SlagModel
-        {
-            get { return this.slagModel; }
-            set { this.slagModel = value; }
-        }
+        //public string SlagModel
+        //{
+        //    get { return this.slagModel; }
+        //    set { this.slagModel = value; }
+        //}
         
         /// <summary>
         /// 吹氩模式
         /// </summary>
-        public string ArgonModel
-        {
-            get { return this.argonModel; }
-            set { this.argonModel = value; }
-        }
+        //public string ArgonModel
+        //{
+        //    get { return this.argonModel; }
+        //    set { this.argonModel = value; }
+        //}
 
         /// <summary>
         /// 每次加热最大时间
         /// </summary>
-        public int? MaxDuraEachHeating
-        {
-            get { return this.maxDuraEachHeating; }
-            set { this.maxDuraEachHeating = value; }
-        }
+        //public int? MaxDuraEachHeating
+        //{
+        //    get { return this.maxDuraEachHeating; }
+        //    set { this.maxDuraEachHeating = value; }
+        //}
 
         /// <summary>
         /// 最大加热次数
         /// </summary>
-        public int? HeatingCount
-        {
-            get { return this.heatingCount; }
-            set { this.heatingCount = value; }
-        }
+        //public int? HeatingCount
+        //{
+        //    get { return this.heatingCount; }
+        //    set { this.heatingCount = value; }
+        //}
 
         /// <summary>
         /// 加热后CaFe线喂入数量
         /// </summary>
-        public double? FeTiAftHeating
-        {
-            get { return this.feTiAftHeating; }
-            set { this.feTiAftHeating = value; }
-        }
+        //public double? FeTiAftHeating
+        //{
+        //    get { return this.feTiAftHeating; }
+        //    set { this.feTiAftHeating = value; }
+        //}
 
         /// <summary>
         /// 加热后喂线重量
         /// </summary>
-        public double? WireWgtAftHeating
-        {
-            get { return this.wireWgtAftHeating; }
-            set { this.wireWgtAftHeating = value; }
-        }
+        //public double? WireWgtAftHeating
+        //{
+        //    get { return this.wireWgtAftHeating; }
+        //    set { this.wireWgtAftHeating = value; }
+        //}
         /// <summary>
         /// 喂线前吹氩最小时间
         /// </summary>
-        public int? ArDuraBefFeedWire
-        {
-            get { return this.arDuraBefFeedWire; }
-            set { this.arDuraBefFeedWire = value; }
-        }
+        //public int? ArDuraBefFeedWire
+        //{
+        //    get { return this.arDuraBefFeedWire; }
+        //    set { this.arDuraBefFeedWire = value; }
+        //}
 
         /// <summary>
         /// 喂线后吹氩最小时间
         /// </summary>
-        public int? ArDuraAftFeedWire
-        {
-            get { return this.arDuraAftFeedWire; }
-            set { this.arDuraAftFeedWire = value; }
-        }
+        //public int? ArDuraAftFeedWire
+        //{
+        //    get { return this.arDuraAftFeedWire; }
+        //    set { this.arDuraAftFeedWire = value; }
+        //}
 
         /// <summary>
         /// 路径代码
         /// </summary>
-        public string RouteId
-        {
-            get { return this.routeId; }
-            set { this.routeId = value; }
-        }
+        //public string RouteId
+        //{
+        //    get { return this.routeId; }
+        //    set { this.routeId = value; }
+        //}
 
         /// <summary>
         /// 路径描述
@@ -186,11 +195,11 @@ namespace LFAutomationUI.Model
         /// <summary>
         /// 工艺信息
         /// </summary>
-        public TechnicsInfo TechnicsInfo
-        {
-            get { return this.technicsInfo; }
-            set { this.technicsInfo = value; }
-        }
+        //public TechnicsInfo TechnicsInfo
+        //{
+        //    get { return this.technicsInfo; }
+        //    set { this.technicsInfo = value; }
+        //}
 
         /// <summary>
         /// 钢分析信息
@@ -206,11 +215,31 @@ namespace LFAutomationUI.Model
 
         public SteelGradeDetailInfo() 
         {
-            this.formulaInfos = new List<FormulaInfo>();
-            this.technicsInfo = new TechnicsInfo();
+            //this.formulaInfos = new List<FormulaInfo>();
+            //this.technicsInfo = new TechnicsInfo();
             this.steelAnalysisList = new List<SteelAnalysisInfo>();
         }
-
+        public SteelGradeDetailInfo(string steelGradeId, string steelGradeDescr, string staffCod,string routeDesc)
+        {
+            this.steelGradeDescr = steelGradeDescr;
+            this.steelGradeId = steelGradeId;
+            this.staffCod = staffCod;
+            this.routeDesc = routeDesc;
+        }
+        /// <summary>
+        /// 带钢种分析信息的构造函数
+        /// </summary>
+        public SteelGradeDetailInfo(string steelGradeId, string steelGradeDescr, string staffCod,string routeDesc,  IList<SteelAnalysisInfo> steelAnalysisList)
+        {
+           
+            this.steelAnalysisList = new List<SteelAnalysisInfo>();
+            this.steelGradeId = steelGradeId;
+            this.steelGradeDescr = steelGradeDescr;
+            this.staffCod = staffCod;
+            this.routeDesc = routeDesc;
+            this.steelAnalysisList = steelAnalysisList;
+        }
+        /*
         public SteelGradeDetailInfo(string steelGradeId, string steelGradeName, string steelGradeGroupCode, string steelGradeGroupName, string steelGradeDescr)
         {
             this.steelGradeDescr = steelGradeDescr;
@@ -299,6 +328,7 @@ namespace LFAutomationUI.Model
             this.technicsInfo = technicsInfo;
             this.steelAnalysisList = steelAnalysisList;
         }
+         */
         #endregion
     }
 }

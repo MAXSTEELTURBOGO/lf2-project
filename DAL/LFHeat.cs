@@ -14,39 +14,37 @@ namespace LFAutomationUI.DAL
     {
         #region Internal members
 
-        private const string SQL_SELECT_DISTINCT_HEAT_ID = "SELECT DISTINCT MSG_TIME_STAMP,HEAT_ID,TREATMENT_COUNT FROM TB_LF_HEAT_INFO ORDER BY MSG_TIME_STAMP DESC";
+        private const string SQL_SELECT_DISTINCT_HEAT_ID = "SELECT DISTINCT MSG_TIME_STAMP,HEAT_ID,TREAT_NO as TREATMENT_COUNT  FROM TB_LF_HEAT_INFO ORDER BY MSG_TIME_STAMP DESC";
         private const string SQL_SELECT_LF_HEAT_INFO = @"SELECT *
                                                           FROM (SELECT T1.MSG_TIME_STAMP,
-                                                                       T1.PLAN_ID,
                                                                        T1.HEAT_ID,
-                                                                       T1.TREATMENT_COUNT,
+                                                                       T1.TREAT_NO as TREATMENT_COUNT,
                                                                        T2.CAR,
-                                                                       T1.STEEL_GRADE_ID,
+                                                                       T1.STUFF_COD,
+																	   T1.AIM_STL_GRD,
+																	   T1.STL_COD,
                                                                        T1.LF_TMP_TGT,
                                                                        V2.ARRIVAL_TIME,
                                                                        V2.DEPART_TIME,
                                                                        V1.CURR_HEAT_STATUS,
                                                                        V1.CURR_DETAIL_STATUS_ID,
                                                                        V1.CURR_DETAIL_STATUS_NAME,
-                                                                       T1.ROUTE_ID,
-                                                                       LF_BLL.FUN_TRANSLATE_ROUTE(T1.ROUTE_ID) AS ROUTE_DESCR,
-                                                                       T1.PRE_START_DTIME,
-                                                                       DECODE(T1.TREATMENT_COUNT,1,T3.LADLE_ID,T1.LADLE_ID) LADLE_ID,
-                                                                       DECODE(T1.TREATMENT_COUNT,1,T3.LADLE_AGE,0) LADLE_AGE,
+                                                                       T1.PLN_ROUTE as ROUTE_ID,
+                                                                       T1.AIM_STR_TIME_4 as PRE_START_DTIME,
+                                                                       T1.S_LD_ID as  LADLE_ID,
+                                                                       T1.FURNACE_TIM as  LADLE_AGE,
                                                                        T1.SELECT_FLAG,
                                                                        T1.VISIBLE
                                                                   FROM TB_L3_LF_PLAN T1
                                                                   LEFT JOIN TB_LF_HEAT_INFO T2
                                                                     ON T1.HEAT_ID = T2.HEAT_ID
-                                                                   AND T1.TREATMENT_COUNT = T2.TREATMENT_COUNT
+                                                                   AND T1.TREAT_NO = T2.TREATMENT_COUNT
                                                                   LEFT JOIN V_HEAT_CURR_STATUS_INFO V1
                                                                     ON T1.HEAT_ID = V1.HEAT_ID
-                                                                   AND T1.TREATMENT_COUNT = V1.TREATMENT_COUNT
+                                                                   AND T1.TREAT_NO = V1.TREATMENT_COUNT
                                                                   LEFT JOIN V_HEAT_ARRIVAL_DEPART_TIME V2
                                                                     ON T1.HEAT_ID = V2.HEAT_ID
-                                                                   AND T1.TREATMENT_COUNT = V2.TREATMENT_COUNT
-                                                                  LEFT JOIN TB_L3_LADLE_MSG T3
-                                                                    ON T1.HEAT_ID = T3.HEAT_ID
+                                                                   AND T1.TREAT_NO = V2.TREATMENT_COUNT
                                                                  WHERE T1.VISIBLE = 1
                                                                  ORDER BY T1.MSG_TIME_STAMP DESC)
                                                          WHERE ROWNUM <= 200";
@@ -87,13 +85,15 @@ namespace LFAutomationUI.DAL
 
         private const string SQL_SELECT_LF_HEAT_INFO_BY_HEAT_ID = @"SELECT T1.MSG_ID,
                                                                            T1.MSG_TIME_STAMP,
-                                                                           T1.PLAN_ID,
                                                                            T1.HEAT_ID,
-                                                                           T1.TREATMENT_COUNT,
-                                                                           T1.STEEL_GRADE_ID,
-                                                                           T1.LADLE_ID,
+                                                                           T1.TREAT_NO as TREATMENT_COUNT,
+                                                                           T1.STL_COD as STEEL_GRADE_ID,
+																		   T1.STUFF_COD,
+																		   T1.S_LD_ID as LADLE_ID,
+																		   T1.FURNACE_TIM ,
                                                                            T2.CAR,
                                                                            T2.CLASS_NAME,
+																		   T2.SHIFT,
                                                                            T2.OPERATOR_NAME,
                                                                            T2.BUB_GAS_CONSUMPTION,
                                                                            T2.BUB_TOTAL_DURATION,
@@ -105,11 +105,7 @@ namespace LFAutomationUI.DAL
                                                                            V4.ARRIVAL_TEMP_TIME,
                                                                            V4.ARRIVAL_TEMP_DATA,
                                                                            V4.DEPART_TEMP_TIME,
-                                                                           V4.DEPART_TEMP_DATA,
-                                                                           V5.MSG_TIME_STAMP       AS LAST_HEATING_TEMP_TIME,
-                                                                           V5.TEMPERATURE_DATA     AS LAST_HEATING_TEMP_DATA,
-                                                                           V6.SOFT_STIR_DURATION,
-                                                                           V6.SOFT_STIR_ARGON_CONSUMPTION
+                                                                           V4.DEPART_TEMP_DATA
                                                                       FROM TB_L3_LF_PLAN T1
                                                                       FULL JOIN TB_LF_HEAT_INFO T2
                                                                         ON T1.HEAT_ID = T2.HEAT_ID
@@ -119,14 +115,7 @@ namespace LFAutomationUI.DAL
                                                                        AND V3.TREATMENT_COUNT = T1.TREATMENT_COUNT
                                                                       LEFT JOIN V_HEAT_ARRIVAL_DEPART_TEMP V4
                                                                         ON V4.HEAT_ID = T1.HEAT_ID
-                                                                       AND V4.TREATMENT_COUNT = T1.TREATMENT_COUNT
-                                                                      LEFT JOIN V_HEAT_TEMP_AFT_LAST_HEATING V5
-                                                                        ON V5.HEAT_ID = T1.HEAT_ID
-                                                                       AND V5.TREATMENT_COUNT = T1.TREATMENT_COUNT
-                                                                      LEFT JOIN V_HEAT_INFO_SOFT_STIR_INFO V6
-                                                                        ON T1.HEAT_ID = V6.HEAT_ID
-                                                                       AND T1.TREATMENT_COUNT = V6.TREATMENT_COUNT
-                                                                     WHERE T1.HEAT_ID = :HEAT_ID";
+                                                                       AND V4.TREATMENT_COUNT = T1.TREATMENT_COUNT";
 
         private const string SQL_SELECT_LF_HEAT_INFO_BY_HEAT_ID_AND_TREATMENT_COUNT = @"SELECT T9.PLAN_ID,
                                                                                                DECODE(T9.MSG_TIME_STAMP, NULL, T6.MSG_TIME_STAMP, T9.MSG_TIME_STAMP) AS MSG_TIME_STAMP,
@@ -392,15 +381,15 @@ namespace LFAutomationUI.DAL
 
         private const string SQL_LOCK_CRITICAL_AREA = "LOCK TABLE V_LF_HEAT_DETAIL_INFO,V_OPC_HEAT_DETAIL_INFO IN EXCLUSIVE MODE";
 
-        private const string PARAM_PLAN_ID = ":PLAN_ID";
         private const string PARAM_HEAT_ID = ":HEAT_ID";
-        private const string PARAM_TREATMENT_COUNT = ":TREATMENT_COUNT";
+        private const string PARAM_TREATMENT_COUNT = ":TREAT_No";
         private const string PARAM_NEW_HEAT_ID = ":NEW_HEAT_ID";
-        private const string PARAM_NEW_TREATMENT_COUNT = ":NEW_TREATMENT_COUNT";
+        private const string PARAM_NEW_TREATMENT_COUNT = ":NEW_TREAT_No";
         private const string PARAM_OLD_HEAT_ID = ":OLD_HEAT_ID";
-        private const string PARAM_OLD_TREATMENT_COUNT = ":OLD_TREATMENT_COUNT";
+        private const string PARAM_OLD_TREATMENT_COUNT = ":OLD_TREAT_No";
         private const string PARAM_CAR = ":CAR";
         private const string PARAM_CLASS_NAME = ":CLASS_NAME";
+        private const string PARAM_SHIFT = ":SHIFT";
         private const string PARAM_OPERATOR_NAME = ":OPERATOR_NAME";
         private const string PARAM_SELECT_FLAG = ":SELECT_FLAG";
         private const string PARAM_VISIBLE = ":VISIBLE";
@@ -450,24 +439,26 @@ namespace LFAutomationUI.DAL
                     LFHeatInfo lfHeat = new LFHeatInfo();
 
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
-                    lfHeat.SteelGrade.SteelGradeId = odr["STEEL_GRADE_ID"] == DBNull.Value ? null : odr["STEEL_GRADE_ID"].ToString();
+                    lfHeat.SteelGrade.SteelGradeId = odr["STL_COD"] == DBNull.Value ? null : odr["STL_COD"].ToString();
                     lfHeat.ArrivalTime = odr["ARRIVAL_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["ARRIVAL_TIME"]));
                     lfHeat.DepartTime = odr["DEPART_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["DEPART_TIME"]));
                     lfHeat.CurrentHeatStatus = odr["CURR_HEAT_STATUS"] == DBNull.Value ? null : odr["CURR_HEAT_STATUS"].ToString();
                     lfHeat.CurrentDetailStatusId = Convert.ToInt16(odr["CURR_DETAIL_STATUS_ID"]);
                     lfHeat.CurrentDetailStatusName = odr["CURR_DETAIL_STATUS_NAME"].ToString();
 
-                    lfHeat.SteelGrade.RouteId = odr["ROUTE_ID"] == DBNull.Value ? null : odr["ROUTE_ID"].ToString();
-                    lfHeat.SteelGrade.RouteDesc = odr["ROUTE_DESCR"] == DBNull.Value ? null : odr["ROUTE_DESCR"].ToString();
+                    lfHeat.SteelGrade.RouteDesc = odr["PLN_ROUTE"] == DBNull.Value ? null : odr["PLN_ROUTE"].ToString();
+                    lfHeat.SteelGrade.StaffCod = odr["STUFF_COD"] == DBNull.Value ? null : odr["STUFF_COD"].ToString();
 
                     lfHeat.PreStartTime = odr["PRE_START_DTIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["PRE_START_DTIME"]));
 
-                    lfHeat.Ladle.LadleId = odr["LADLE_ID"] == DBNull.Value ? null : odr["LADLE_ID"].ToString();
-                    lfHeat.Ladle.LadleAge = odr["LADLE_AGE"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["LADLE_AGE"]));
+                    //lfHeat.Ladle.LadleId = odr["LADLE_ID"] == DBNull.Value ? null : odr["LADLE_ID"].ToString();
+                    //lfHeat.Ladle.LadleAge = odr["LADLE_AGE"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["LADLE_AGE"]));
+                    lfHeat.SLD_ID = odr["LADLE_ID"] == DBNull.Value ? null : odr["LADLE_ID"].ToString();
+                    lfHeat.FurnaceTim = odr["LADLE_AGE"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["LADLE_AGE"]));
                     lfHeat.SelectedFlag = Convert.ToBoolean(Convert.ToInt32(odr["SELECT_FLAG"]));
                     lfHeat.Visible = Convert.ToBoolean(Convert.ToInt16(odr["VISIBLE"]));
 
@@ -495,7 +486,7 @@ namespace LFAutomationUI.DAL
                     LFHeatInfo lfHeat = new LFHeatInfo();
 
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
@@ -507,12 +498,13 @@ namespace LFAutomationUI.DAL
                     lfHeat.ArDuration = odr["BUB_TOTAL_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["BUB_TOTAL_DURATION"]));
                     lfHeat.PowerConsumption = odr["ELECTRIC_CONSUMPTION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["ELECTRIC_CONSUMPTION"]));
                     lfHeat.PowerDuration = odr["HEATING_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["HEATING_DURATION"]));
-                    lfHeat.ArConsumptionAfterFeed = odr["SOFT_STIR_ARGON_CONSUMPTION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_ARGON_CONSUMPTION"]));
-                    lfHeat.ArDurationAfterFeed = odr["SOFT_STIR_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_DURATION"]));
+                    //lfHeat.ArConsumptionAfterFeed = odr["SOFT_STIR_ARGON_CONSUMPTION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_ARGON_CONSUMPTION"]));
+                    //lfHeat.ArDurationAfterFeed = odr["SOFT_STIR_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_DURATION"]));
 
                     lfHeat.FeedSpeed = odr["FED_SPD"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["FED_SPD"]));
 
-                    lfHeat.Ladle.LadleId = odr["LADLE_ID"] == DBNull.Value ? null : odr["LADLE_ID"].ToString();
+                    lfHeat.SLD_ID = odr["LADLE_ID"] == DBNull.Value ? null : odr["LADLE_ID"].ToString();
+                    lfHeat.FurnaceTim = odr["FURNACE_TIM"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["FURNACE_TIM"]));
 
                     lfHeat.ArrivalTime = odr["ARRIVAL_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["ARRIVAL_TIME"]));
                     lfHeat.DepartTime = odr["DEPART_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["DEPART_TIME"]));
@@ -524,14 +516,14 @@ namespace LFAutomationUI.DAL
                     departTempInfo.MsgTimeStamp = odr["DEPART_TEMP_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["DEPART_TEMP_TIME"]));
                     departTempInfo.TemperatureData = odr["DEPART_TEMP_DATA"] == DBNull.Value ? null : new Nullable<double>(Convert.ToDouble(odr["DEPART_TEMP_DATA"]));
                     TempOxygenRecordInfo lastHeatTempInfo = new TempOxygenRecordInfo();
-                    lastHeatTempInfo.MsgTimeStamp = odr["LAST_HEATING_TEMP_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["LAST_HEATING_TEMP_TIME"]));
-                    lastHeatTempInfo.TemperatureData = odr["LAST_HEATING_TEMP_DATA"] == DBNull.Value ? null : new Nullable<double>(Convert.ToDouble(odr["LAST_HEATING_TEMP_DATA"]));
+                    //lastHeatTempInfo.MsgTimeStamp = odr["LAST_HEATING_TEMP_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["LAST_HEATING_TEMP_TIME"]));
+                    //lastHeatTempInfo.TemperatureData = odr["LAST_HEATING_TEMP_DATA"] == DBNull.Value ? null : new Nullable<double>(Convert.ToDouble(odr["LAST_HEATING_TEMP_DATA"]));
                     lfHeat.ArrivalTemperature = arrivalTempInfo;
                     lfHeat.DepartTemperature = departTempInfo;
                     lfHeat.LastHeatTemperature = lastHeatTempInfo;
 
-                    lfHeat.ArDurationAfterFeed = odr["SOFT_STIR_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_DURATION"]));
-                    lfHeat.ArConsumptionAfterFeed = odr["SOFT_STIR_ARGON_CONSUMPTION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_ARGON_CONSUMPTION"]));
+                    //lfHeat.ArDurationAfterFeed = odr["SOFT_STIR_DURATION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_DURATION"]));
+                    //lfHeat.ArConsumptionAfterFeed = odr["SOFT_STIR_ARGON_CONSUMPTION"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt32(odr["SOFT_STIR_ARGON_CONSUMPTION"]));
 
                     lfHeatList.Add(lfHeat);
                 }
@@ -559,15 +551,15 @@ namespace LFAutomationUI.DAL
                 if (odr.Read())
                 {
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
                     lfHeat.OperatorUser.ClassId = odr["CLASS_NAME"].ToString();
                     lfHeat.OperatorUser.UserName = odr["OPERATOR_NAME"].ToString();
                     lfHeat.FactoryCode = odr["FACTORY_CODE"].ToString();
-                    lfHeat.PlanStationId = odr["PLAN_STATION_ID"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt16(odr["PLAN_STATION_ID"]));
-                    lfHeat.CurrentStationId = Convert.ToInt16(odr["CURRENT_STATION_ID"]);
+                    //lfHeat.PlanStationId = odr["PLAN_STATION_ID"] == DBNull.Value ? null : new Nullable<int>(Convert.ToInt16(odr["PLAN_STATION_ID"]));
+                    //lfHeat.CurrentStationId = Convert.ToInt16(odr["CURRENT_STATION_ID"]);
                     lfHeat.SteelGrade.SteelGradeId = odr["STEEL_GRADE_ID"] == DBNull.Value ? null : odr["STEEL_GRADE_ID"].ToString();
                     lfHeat.ArrivalTime = odr["ARRIVAL_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["ARRIVAL_TIME"]));
                     lfHeat.DepartTime = odr["DEPART_TIME"] == DBNull.Value ? null : new Nullable<DateTime>(Convert.ToDateTime(odr["DEPART_TIME"]));
@@ -651,7 +643,7 @@ namespace LFAutomationUI.DAL
                     LFHeatInfo lfHeat = new LFHeatInfo();
 
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
@@ -710,7 +702,7 @@ namespace LFAutomationUI.DAL
                     LFHeatInfo lfHeat = new LFHeatInfo();
 
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
@@ -751,7 +743,7 @@ namespace LFAutomationUI.DAL
                 {
                     LFHeatInfo lfHeat = new LFHeatInfo();
                     lfHeat.MsgTimeStamp = Convert.ToDateTime(odr["MSG_TIME_STAMP"]);
-                    lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
+                    //lfHeat.PlanId = odr["PLAN_ID"] == DBNull.Value ? null : new Nullable<decimal>(Convert.ToDecimal(odr["PLAN_ID"]));
                     lfHeat.HeatId = odr["HEAT_ID"].ToString();
                     lfHeat.TreatmentCount = Convert.ToInt16(odr["TREATMENT_COUNT"]);
                     lfHeat.Car = (Car)(odr["CAR"] == DBNull.Value ? 0 : new Nullable<int>(Convert.ToInt16(odr["CAR"])));
@@ -930,13 +922,13 @@ namespace LFAutomationUI.DAL
         {
             OracleParameter[] param = new OracleParameter[9];
             param[0] = new OracleParameter(PARAM_PLAN_ID, OracleType.VarChar);
-            param[0].Value = lfHeat.PlanId == null ? (object)DBNull.Value : (object)lfHeat.PlanId;
+            //param[0].Value = lfHeat.PlanId == null ? (object)DBNull.Value : (object)lfHeat.PlanId;
             param[1] = new OracleParameter(PARAM_HEAT_ID, OracleType.VarChar);
             param[1].Value = lfHeat.HeatId == null ? (object)DBNull.Value : (object)lfHeat.HeatId;
             param[2] = new OracleParameter(PARAM_TREATMENT_COUNT, OracleType.Number);
             param[2].Value = lfHeat.TreatmentCount;
             param[3] = new OracleParameter(PARAM_STATION_ID, OracleType.Number);
-            param[3].Value = lfHeat.PlanStationId == null ? (object)DBNull.Value : (object)lfHeat.PlanStationId;
+            //param[3].Value = lfHeat.PlanStationId == null ? (object)DBNull.Value : (object)lfHeat.PlanStationId;
             param[4] = new OracleParameter(PARAM_STEEL_GRADE_ID, OracleType.VarChar);
             param[4].Value = lfHeat.SteelGrade.SteelGradeId == null ? (object)DBNull.Value : (object)lfHeat.SteelGrade.SteelGradeId;
             param[5] = new OracleParameter(PARAM_ROUTE_ID, OracleType.VarChar);
