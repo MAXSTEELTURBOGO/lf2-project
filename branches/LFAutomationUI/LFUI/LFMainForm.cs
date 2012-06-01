@@ -467,7 +467,7 @@ namespace LFAutomationUI.LFUI
             }
         }
 
-        private void bindLFHeatList()
+        private void bindLFHeatList()//done
         {
             int doneCount = Convert.ToInt32(this.numericUpDownDoneCount.Value);
             int toBeDoneCount = Convert.ToInt32(this.numericUpDownToBeDoneHeatCount.Value);
@@ -484,21 +484,22 @@ namespace LFAutomationUI.LFUI
         private void refreshLFHeatList()
         {
             LFHeat lfHeatBLL = new LFHeat();
-            allLFHeatList = lfHeatBLL.GetLFHeatDetailInfo(out onGoingLFHeatList, out  doneLFHeatList, out toBeDoneLFHeatList);
+            allLFHeatList = lfHeatBLL.GetLFHeatDetailInfo(out onGoingLFHeatList, out  doneLFHeatList, out toBeDoneLFHeatList);//done
             this.lvHeatInfo.Items.Clear();
             bindLFHeatList();
         }
 
-        private void appendLFHeatList(IEnumerable<LFHeatInfo> bindHeatList)
+        private void appendLFHeatList(IEnumerable<LFHeatInfo> bindHeatList)//done
         {
             foreach (LFHeatInfo item in bindHeatList)
             {
-                ListViewItem lvItem = new ListViewItem(item.PlanId.ToString());
-                lvItem.SubItems.Add(item.HeatId);
+                ListViewItem lvItem = new ListViewItem(item.HeatId.ToString());
+                //lvItem.SubItems.Add(item.HeatId);
                 lvItem.SubItems.Add(item.TreatmentCount.ToString());
                 lvItem.SubItems.Add(item.IntParseCar().ToString());
                 lvItem.SubItems.Add(item.SteelGrade.SteelGradeId);
-                lvItem.SubItems.Add(item.Ladle.LadleId);
+                lvItem.SubItems.Add(item.SteelGrade.StaffCod);
+                lvItem.SubItems.Add(item.SLD_ID);
                 lvItem.SubItems.Add(item.ArrivalTime.ToString());
                 lvItem.SubItems.Add(item.DepartTime.ToString());
                 lvItem.SubItems.Add(item.CurrentDetailStatusName);
@@ -1014,13 +1015,14 @@ namespace LFAutomationUI.LFUI
                 string heatId = this.lvHeatInfo.SelectedItems[0].SubItems[1].Text;
                 int treatmentCount = Convert.ToInt16(this.lvHeatInfo.SelectedItems[0].SubItems[2].Text);
                 LFHeatInfo activatedLFHeat = allLFHeatList.Single<LFHeatInfo>(i => i.HeatId == heatId && i.TreatmentCount == treatmentCount);
-                this.lblPlanId.Text = activatedLFHeat.PlanId.ToString();
+                //this.lblPlanId.Text = activatedLFHeat.PlanId.ToString();
                 this.lblHeatId.Text = activatedLFHeat.HeatId;
                 this.lblTreatmentCount.Text = activatedLFHeat.TreatmentCount.ToString();
                 this.lblCar.Text = activatedLFHeat.IntParseCar().ToString();
                 this.lblLadleId.Text = activatedLFHeat.Ladle.LadleId;
                 this.lblSteelGradeId.Text = activatedLFHeat.SteelGrade.SteelGradeId;
                 this.lblLadleAge.Text = activatedLFHeat.Ladle.LadleAge.ToString();
+                this.lblStuffCod.Text = activatedLFHeat.SteelGrade.StaffCod;
                 lvSelectedQualityList_DataBind();
                 lvSelectedSLagQuality_DataBind();
             }
